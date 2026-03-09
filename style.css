@@ -82,6 +82,7 @@ header {
         width: 100%;
         overflow: hidden;
         padding-top: 10px;
+        padding-bottom: 10px
     }
 
     .navigation a {
@@ -89,4 +90,10 @@ header {
         font-size: 15px;
         padding: 5px 10px;
     }
+    
+    . navigation a:active::after,
+    . navigation a:active::after {
+    	   width: 100%;
+           transform: scaleX(1);
     }
+}
